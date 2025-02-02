@@ -18,7 +18,11 @@ email: anastasioyaa@gmail.com
 description: Personal website for Alexandros Anastasiou.
 twitter_username: alex__anast
 github_username: alex-anast
-minimal_mistakes_skin: neon
+minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
+
+# default : 9
+# contrast: 8
+
 search: true
 
 # Build settings
@@ -47,6 +51,7 @@ include:
 
 # Plugins (previously gems:)
 plugins:
+  # - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
