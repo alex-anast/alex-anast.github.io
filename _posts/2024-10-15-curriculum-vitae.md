@@ -1,7 +1,7 @@
 ---
 layout: single
-title: "My Portfolio"
-permalink: /portfolio/
+title: "My Curriculum Vitae"
+permalink: /curriculum_vitae/
 ---
 
 ## My Curriculum Vitae
