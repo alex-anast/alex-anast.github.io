@@ -12,6 +12,8 @@ permalink: /curriculum_vitae/
 <br>
 # UNDER CONSTRUCTION
 
+The idea is that some things happened in parallel, and it would be nice to showcase it visually.
+
 <style>
 .timeline-container {
   display: flex;

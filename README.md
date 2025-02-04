@@ -11,5 +11,5 @@
 - [ ] CV: share on LI and email, not the rest
 - [ ] previous and next should be removed in general
 - [ ] CV: remove related except if you can only stick to blogs
-- [ ] Fix timeline (optional)
+- [ ] Fix timeline (optional) + think of UX w/ Marietta
 
