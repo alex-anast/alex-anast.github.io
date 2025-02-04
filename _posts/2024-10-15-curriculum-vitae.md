@@ -1,7 +1,9 @@
 ---
-layout: single
+layout: archive
 title: "Curriculum Vitae"
 permalink: /curriculum_vitae/
+---
+
 ---
 
 <iframe src="/assets/documents/resume_alexandros_anastasiou.pdf" width="100%" height="874px"> </iframe>
@@ -10,6 +12,9 @@ permalink: /curriculum_vitae/
 <br>
 <br>
 <br>
+
+---
+
 # UNDER CONSTRUCTION
 
 The idea is that some things happened in parallel, and it would be nice to showcase it visually.
