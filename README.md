@@ -10,6 +10,6 @@
 - [X] CV: link, if possible -> plot
 - [ ] CV: share on LI and email, not the rest
 - [ ] previous and next should be removed in general
-- [ ] CV: remove related except if you can only stick to blogs
+- [X] CV: remove related except if you can only stick to blogs
 - [ ] Fix timeline (optional) + think of UX w/ Marietta
 
