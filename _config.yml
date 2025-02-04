@@ -16,6 +16,7 @@
 title: Alexandros Anastasiou
 email: anastasioyaa@gmail.com
 description: Personal website for Alexandros Anastasiou.
+linkedin: https://www.linkedin.com/in/anastasioyaa/
 twitter_username: alex__anast
 github_username: alex-anast
 minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
@@ -63,33 +64,41 @@ plugins:
 author:
   name   : "Alexandros Anastasiou"
   avatar : "/assets/images/LI_Alexandros_Anastasiou.jpeg"
-  # bio    : "My awesome biography constrained to a sentence or two goes here."
-  bio    : "AI & Software Engineer"
+  bio    : "AI x Software Engineer"
   links:
-    - label: "Website"
+    - label: "Curriculum Vitae"
       icon: "fas fa-fw fa-link"
-      url: "https://alex-anast.com"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/"
+      url: "https://alex-anast.com/curriculum_vitae/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/anastasioyaa/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/alex-anast"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/anastasiou___alex/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:anastasioyaa@gmail.com"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
 
 footer:
   links:
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/alex-anast"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/anastasiou___alex/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/anastasioyaa/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:anastasioyaa@gmail.com"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
 
 defaults:
   # _posts
@@ -99,10 +108,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false
+      read_time: true
       comments: true
-      share: true
       related: true
+      share: false
   # _pages
   - scope:
       path: "_pages"
@@ -110,6 +119,10 @@ defaults:
     values:
       layout: single
       author_profile: true
+      share: false
+      read_time: false
+      related: false
+      comments: false
 
 category_archive:
   type: liquid
