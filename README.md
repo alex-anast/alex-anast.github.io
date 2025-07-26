@@ -1,5 +1,15 @@
 # My Personal Website - alex-anast
 
+## TODO -- Update
+
+Move to Astro -- see templates like:
+
+- https://www.devportfoliotemplates.com/portfolio-templates/modern-minimal
+- This in general: https://www.devportfoliotemplates.com/
+- From Karolina: https://karikowska.github.io/
+
+Astro seems to beat Hugo in terms of modern design and flexibility, I don't know how difficult it is to set it up though. It seems like a choice that will remain though. And I wonder if I can set it up quickly by using agents.
+
 ## TODO
 
 - [X] Make a tad bit lighter the wallpaper
