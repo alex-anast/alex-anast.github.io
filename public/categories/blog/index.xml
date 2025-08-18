@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Alexandros Anastasiou</title>
+    <link>http://localhost:1313/categories/blog/</link>
+    <description>Recent content in Blog on Alexandros Anastasiou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 15 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastering Habits: Atomic Habits Summary by James Clear</title>
+      <link>http://localhost:1313/blog/atomic-habits-summary/</link>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/atomic-habits-summary/</guid>
+      <description>Mastering Habits: Atomic Habits Summary by James Clear In a digital landscape teeming with self-help resources, James Clear&amp;rsquo;s &amp;ldquo;Atomic Habits&amp;rdquo; emerges as a beacon of guidance for those navigating the realm of habit formation and self-improvement. Clear&amp;rsquo;s expertise in this field shines through as he unveils the transformative power of small changes leading to significant outcomes.&#xA;Clear introduces readers to the 4 Laws of Behavior Change, emphasizing the importance of making habits obvious, attractive, easy, and satisfying.</description>
+    </item>
+  </channel>
+</rss>

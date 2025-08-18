@@ -1,0 +1,11 @@
+[[projects]]
+name = "Cool Tool"
+stack = ["Go", "Hugo"]
+summary = "Static site helper."
+link = "https://github.com/alex-anast/cool-tool"
+
+[[projects]]
+name = "Another Project"
+stack = ["Python", "FastAPI"]
+summary = "API for fun."
+link = "https://github.com/alex-anast/another"

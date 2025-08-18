@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexandros Anastasiou</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Alexandros Anastasiou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 18 Aug 2025 23:05:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello Hugo</title>
+      <link>http://localhost:1313/blog/hello-hugo/</link>
+      <pubDate>Mon, 18 Aug 2025 23:05:00 +0100</pubDate>
+      <guid>http://localhost:1313/blog/hello-hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IEEE Research Mapper</title>
+      <link>http://localhost:1313/blog/ieee-research-mapper/</link>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/ieee-research-mapper/</guid>
+      <description>Building an IEEE Research Mapper with Huggingface and Plotly Dash Overview Note: This post is currently in draft mode as it&amp;rsquo;s still being developed.&#xA;Demo TODO: Attach video&#xA;Problem Statement Business Value TODO: Measurable outcome! Align with CV&#xA;Technical Details This post will be updated with complete details once the project is finalized.</description>
+    </item>
+    <item>
+      <title>Mastering Habits: Atomic Habits Summary by James Clear</title>
+      <link>http://localhost:1313/blog/atomic-habits-summary/</link>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/atomic-habits-summary/</guid>
+      <description>Mastering Habits: Atomic Habits Summary by James Clear In a digital landscape teeming with self-help resources, James Clear&amp;rsquo;s &amp;ldquo;Atomic Habits&amp;rdquo; emerges as a beacon of guidance for those navigating the realm of habit formation and self-improvement. Clear&amp;rsquo;s expertise in this field shines through as he unveils the transformative power of small changes leading to significant outcomes.&#xA;Clear introduces readers to the 4 Laws of Behavior Change, emphasizing the importance of making habits obvious, attractive, easy, and satisfying.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>My Story AI engineer with a passion for Generative AI, currently making waves in the pharma industry. Originally hailing from the beautiful landscapes of Greece, I&amp;rsquo;ve honed my skills with a year in embedded software and another in DevOps CI and automation.&#xA;My journey is driven by a relentless pursuit to become an AI expert and build interesting stuff.&#xA;This site is a work in progress! 🚀tle: &amp;ldquo;About&amp;rdquo; description: &amp;ldquo;Who I am and what I do&amp;rdquo; Hi, I’m Alex — I enjoy building fast, simple software and writing about what I learn.</description>
+    </item>
+    <item>
+      <title>Certifications</title>
+      <link>http://localhost:1313/certifications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/certifications/</guid>
+      <description>📜 Certifications The World of Computer Networking (Udemy) The Complete Python Bootcamp: Go from zero to hero in Python (Udemy) The Complete SQL Bootcamp: Go from zero to hero in SQL (Udemy) SQL for Data Science (University of California, Davis) Machine Learning Specialization (Stanford University) CS50x: Introduction to Computer Science (Harvard University) CS50p: Python (Harvard University) Languages 🇬🇷 Greek (Native) 🇬🇧 English (Fluent) 🇩🇪 German (Intermediate) 🇫🇷 French (Basic) </description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>You can reach out to me via email at anastasioyaa@gmail.com or connect with me on GitHub.</description>
+    </item>
+    <item>
+      <title>Curriculum Vitae</title>
+      <link>http://localhost:1313/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/cv/</guid>
+      <description> </description>
+    </item>
+  </channel>
+</rss>
