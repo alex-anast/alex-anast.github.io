@@ -1,4 +1,4 @@
-baseURL = "https://alex-anast.github.io/"
+baseURL = "https://alex-anast.com/"
 languageCode = "en-us"
 title = "Alexandros Anastasiou"
 theme = "hugo-noir"
@@ -18,49 +18,13 @@ defaultContentLanguage = "en"
     weight = 1
 
 [params]
+# Basic site info (kept here as fallback, but data/en/author.toml is primary source)
 name = "Alexandros Anastasiou"
 location = "Brussels, BE"
 description = "AI & Data Engineer"
 github = "https://github.com/alex-anast"
 email = "anastasioyaa@gmail.com"
-
-# Experience section
-[[params.experience]]
-company = "Your Company"
-role = "Engineer"
-period = "Feb 2023 - Present"
-description = "Working on X, Y, Z."
-
-[[params.experience]]
-company = "Previous Co"
-role = "Intern"
-period = "Jun 2022 - Sep 2022"
-description = "Helped build A; shipped B."
-
-# Projects section
-[[params.projects]]
-name = "LLM Discovery Multi-Agent System"
-stack = ["Python", "LangChain", "FastAPI"]
-summary = "Advanced multi-agent system implementation for automated discovery processes using Large Language Models."
-link = "https://github.com/alex-anast"
-
-[[params.projects]]
-name = "IEEE Papers Summarization"
-stack = ["Python", "NLP", "Transformers"]
-summary = "NLP system for automatically summarizing academic papers from IEEE database."
-link = "https://github.com/alex-anast"
-
-[[params.projects]]
-name = "Router Test Kit"
-stack = ["Python", "Networking", "Testing"]
-summary = "Comprehensive network testing and validation toolkit for router performance analysis."
-link = "https://github.com/alex-anast"
-
-[[params.projects]]
-name = "Formula Car BMS PCB"
-stack = ["PCB Design", "Hardware", "Automotive"]
-summary = "Battery Management System PCB design for racing applications with advanced monitoring capabilities."
-link = "https://github.com/alex-anast"
+linkedin = "https://linkedin.com/in/anastasioyaa"
 
 # Main nav (the theme also supports pageRef-based menus)
 [menu]

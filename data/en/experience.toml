@@ -1,14 +1,15 @@
-[[roles]]
-company = "Your Company"
-title = "Engineer"
-location = "Remote"
-start = "2023-02"
-end = "Present"
-summary = "Working on X, Y, Z."
+# Experience data - accessed via site.Data.en.experience.experience
+# TODO: Replace placeholder entries with actual experience from resume
+# Format: company (string), role (string), period (string like "Feb 2023 - Present"), description (string)
 
-[[roles]]
+[[experience]]
+company = "Your Company"
+role = "Engineer"
+period = "Feb 2023 - Present"
+description = "Working on X, Y, Z."
+
+[[experience]]
 company = "Previous Co"
-title = "Intern"
-start = "2022-06"
-end = "2022-09"
-summary = "Helped build A; shipped B."
+role = "Intern"
+period = "Jun 2022 - Sep 2022"
+description = "Helped build A; shipped B."

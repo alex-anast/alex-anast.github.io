@@ -2,7 +2,7 @@ name: Deploy Hugo site to Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ refactor/migrate-to-hugo ]
   workflow_dispatch:
 
 permissions:
@@ -41,3 +41,4 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+

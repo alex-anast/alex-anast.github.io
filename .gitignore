@@ -1,3 +1,14 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Hugo
+public/
+.hugo_build.lock
+resources/_gen/
+
+# Jekyll (legacy/backup)
 _site
 .sass-cache
 .jekyll-metadata

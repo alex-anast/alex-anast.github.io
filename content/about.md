@@ -9,8 +9,4 @@ AI engineer with a passion for Generative AI, currently making waves in the phar
 
 My journey is driven by a relentless pursuit to become an AI expert and build interesting stuff.
 
-*This site is a work in progress!* 🚀tle: "About"
-description: "Who I am and what I do"
----
-
-Hi, I’m Alex — I enjoy building fast, simple software and writing about what I learn.
+*This site is a work in progress!* 🚀

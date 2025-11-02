@@ -1,11 +1,24 @@
+# Projects data - accessed via site.Data.en.projects.projects
 [[projects]]
-name = "Cool Tool"
-stack = ["Go", "Hugo"]
-summary = "Static site helper."
-link = "https://github.com/alex-anast/cool-tool"
+name = "LLM Discovery Multi-Agent System"
+stack = ["Python", "LangChain", "FastAPI"]
+summary = "Advanced multi-agent system implementation for automated discovery processes using Large Language Models."
+link = "https://github.com/alex-anast"
 
 [[projects]]
-name = "Another Project"
-stack = ["Python", "FastAPI"]
-summary = "API for fun."
-link = "https://github.com/alex-anast/another"
+name = "IEEE Papers Summarization"
+stack = ["Python", "NLP", "Transformers"]
+summary = "NLP system for automatically summarizing academic papers from IEEE database."
+link = "https://github.com/alex-anast"
+
+[[projects]]
+name = "Router Test Kit"
+stack = ["Python", "Networking", "Testing"]
+summary = "Comprehensive network testing and validation toolkit for router performance analysis."
+link = "https://github.com/alex-anast"
+
+[[projects]]
+name = "Formula Car BMS PCB"
+stack = ["PCB Design", "Hardware", "Automotive"]
+summary = "Battery Management System PCB design for racing applications with advanced monitoring capabilities."
+link = "https://github.com/alex-anast"
