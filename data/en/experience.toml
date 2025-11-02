@@ -3,13 +3,13 @@
 # Format: company (string), role (string), period (string like "Feb 2023 - Present"), description (string)
 
 [[experience]]
-company = "Your Company"
-role = "Engineer"
-period = "Feb 2023 - Present"
+company = "Wayve"
+role = "Software Engineer"
+period = "Apr 2025 - Present"
 description = "Working on X, Y, Z."
 
 [[experience]]
-company = "Previous Co"
-role = "Intern"
-period = "Jun 2022 - Sep 2022"
-description = "Helped build A; shipped B."
+company = "Glaxosmithklein"
+role = "AI Engineer"
+period = "Nov 2024 - Sep 2024"
+description = "Thesis project: TODO"

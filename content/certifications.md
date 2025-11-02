@@ -15,7 +15,7 @@ description: "My professional certifications and language skills"
 
 ## Languages
 
-- 🇬🇷 Greek (Native)
 - 🇬🇧 English (Fluent)
 - 🇩🇪 German (Intermediate)
 - 🇫🇷 French (Basic)
+- 🇬🇷 Greek (Native)

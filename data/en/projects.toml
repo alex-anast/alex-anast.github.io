@@ -6,7 +6,7 @@ summary = "Advanced multi-agent system implementation for automated discovery pr
 link = "https://github.com/alex-anast"
 
 [[projects]]
-name = "IEEE Papers Summarization"
+name = "IEEE Papers Summarisation"
 stack = ["Python", "NLP", "Transformers"]
 summary = "NLP system for automatically summarizing academic papers from IEEE database."
 link = "https://github.com/alex-anast"
@@ -15,10 +15,4 @@ link = "https://github.com/alex-anast"
 name = "Router Test Kit"
 stack = ["Python", "Networking", "Testing"]
 summary = "Comprehensive network testing and validation toolkit for router performance analysis."
-link = "https://github.com/alex-anast"
-
-[[projects]]
-name = "Formula Car BMS PCB"
-stack = ["PCB Design", "Hardware", "Automotive"]
-summary = "Battery Management System PCB design for racing applications with advanced monitoring capabilities."
 link = "https://github.com/alex-anast"
