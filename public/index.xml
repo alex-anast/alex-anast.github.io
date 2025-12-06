@@ -2,45 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alexandros Anastasiou</title>
-    <link>http://localhost:37503/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Alexandros Anastasiou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:37503/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IEEE Research Mapper</title>
+      <link>http://localhost:1313/blog/ieee-research-mapper/</link>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/ieee-research-mapper/</guid>
+      <description>Building an IEEE Research Mapper with Huggingface and Plotly Dash Overview Note: This post is currently in draft mode as it&amp;rsquo;s still being developed.&#xA;Demo TODO: Attach video&#xA;Problem Statement Business Value TODO: Measurable outcome! Align with CV&#xA;Technical Details This post will be updated with complete details once the project is finalized.</description>
+    </item>
     <item>
       <title>Mastering Habits: Atomic Habits Summary by James Clear</title>
-      <link>http://localhost:37503/blog/atomic-habits-summary/</link>
+      <link>http://localhost:1313/blog/atomic-habits-summary/</link>
       <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:37503/blog/atomic-habits-summary/</guid>
+      <guid>http://localhost:1313/blog/atomic-habits-summary/</guid>
       <description>Mastering Habits: Atomic Habits Summary by James Clear In a digital landscape teeming with self-help resources, James Clear&amp;rsquo;s &amp;ldquo;Atomic Habits&amp;rdquo; emerges as a beacon of guidance for those navigating the realm of habit formation and self-improvement. Clear&amp;rsquo;s expertise in this field shines through as he unveils the transformative power of small changes leading to significant outcomes.&#xA;Clear introduces readers to the 4 Laws of Behavior Change, emphasizing the importance of making habits obvious, attractive, easy, and satisfying.</description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:37503/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:37503/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>My Story AI &amp;amp; Software Engineer with a passion for building intelligent systems that solve real-world problems. Currently contributing to autonomous vehicle technology at Wayve in London, while completing my Advanced Master in Artificial Intelligence at KU Leuven.&#xA;Originally from the beautiful landscapes of Greece, my journey has taken me through diverse engineering disciplines. I&amp;rsquo;ve evolved from designing battery management systems for formula racing cars and developing embedded software for network routers, to building multi-agent AI systems for pharmaceutical data analysis.</description>
     </item>
     <item>
       <title>Certifications</title>
-      <link>http://localhost:37503/certifications/</link>
+      <link>http://localhost:1313/certifications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:37503/certifications/</guid>
+      <guid>http://localhost:1313/certifications/</guid>
       <description>📜 Professional Certifications University &amp;amp; MOOC Certifications CS50x: Introduction to Computer Science - Harvard University CS50p: Python - Harvard University Machine Learning Specialization - Stanford University SQL for Data Science - University of California, Davis Technical Courses The Complete Python Bootcamp: Go from zero to hero in Python - Udemy The Complete SQL Bootcamp: Go from zero to hero in SQL - Udemy The World of Computer Networking - Udemy Language Proficiency Certificate of Proficiency in English (C2) - Cambridge English 🌍 Languages 🇬🇷 Greek - Native or Bilingual 🇬🇧 English - Full Professional Proficiency (C2) 🇩🇪 German - Elementary 🇫🇷 French - Elementary 🛠️ Top Skills Based on professional experience and projects:</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>http://localhost:37503/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:37503/contact/</guid>
+      <guid>http://localhost:1313/contact/</guid>
       <description>Let&amp;rsquo;s Connect I&amp;rsquo;m always interested in discussing AI, software engineering, and potential collaborations. Whether you have a project idea, want to chat about technology, or just say hello, feel free to reach out!&#xA;How to Reach Me 📧 Email: anastasioyaa@gmail.com 💼 LinkedIn: linkedin.com/in/anastasioyaa 👨‍💻 GitHub: github.com/alex-anast What I&amp;rsquo;m Interested In AI &amp;amp; Machine Learning projects Open-source contributions Technical discussions and knowledge sharing Collaboration opportunities Speaking engagements Looking forward to hearing from you!</description>
     </item>
     <item>
       <title>Curriculum Vitae</title>
-      <link>http://localhost:37503/cv/</link>
+      <link>http://localhost:1313/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:37503/cv/</guid>
+      <guid>http://localhost:1313/cv/</guid>
       <description> </description>
     </item>
   </channel>

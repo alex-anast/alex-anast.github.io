@@ -1,4 +1,4 @@
-baseURL = "https://alex-anast.github.com/"
+baseURL = "https://alex-anast.com/"
 languageCode = "en-us"
 title = "Alexandros Anastasiou"
 theme = "hugo-noir"
