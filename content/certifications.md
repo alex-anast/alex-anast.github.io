@@ -3,19 +3,36 @@ title: "Certifications"
 description: "My professional certifications and language skills"
 ---
 
-## 📜 Certifications
+## 📜 Professional Certifications
 
-- The World of Computer Networking (Udemy)
-- The Complete Python Bootcamp: Go from zero to hero in Python (Udemy)
-- The Complete SQL Bootcamp: Go from zero to hero in SQL (Udemy)
-- SQL for Data Science (University of California, Davis)
-- Machine Learning Specialization (Stanford University)
-- CS50x: Introduction to Computer Science (Harvard University)
-- CS50p: Python (Harvard University)
+### University & MOOC Certifications
+- **CS50x: Introduction to Computer Science** - Harvard University
+- **CS50p: Python** - Harvard University
+- **Machine Learning Specialization** - Stanford University
+- **SQL for Data Science** - University of California, Davis
 
-## Languages
+### Technical Courses
+- **The Complete Python Bootcamp: Go from zero to hero in Python** - Udemy
+- **The Complete SQL Bootcamp: Go from zero to hero in SQL** - Udemy
+- **The World of Computer Networking** - Udemy
 
-- 🇬🇧 English (Fluent)
-- 🇩🇪 German (Intermediate)
-- 🇫🇷 French (Basic)
-- 🇬🇷 Greek (Native)
+### Language Proficiency
+- **Certificate of Proficiency in English (C2)** - Cambridge English
+
+## 🌍 Languages
+
+- 🇬🇷 **Greek** - Native or Bilingual
+- 🇬🇧 **English** - Full Professional Proficiency (C2)
+- 🇩🇪 **German** - Elementary
+- 🇫🇷 **French** - Elementary
+
+## 🛠️ Top Skills
+
+Based on professional experience and projects:
+
+**Programming Languages**: Python, C, C++, Java, Embedded C, MATLAB  
+**AI/ML Frameworks**: LangChain, TensorFlow, PyTorch, Transformers, NLP  
+**Testing & CI/CD**: Pytest, Jenkins, GitLab CI, JIRA  
+**Data Analysis**: Pandas, NumPy, SQL, PowerBI  
+**Hardware**: PCB Design (Eagle, LTSpice, Diptrace), Embedded Systems  
+**Tools**: Git, Docker, Linux, Ansys, Fusion360

@@ -20,8 +20,8 @@ defaultContentLanguage = "en"
 [params]
 # Basic site info (kept here as fallback, but data/en/author.toml is primary source)
 name = "Alexandros Anastasiou"
-location = "Brussels, BE"
-description = "AI & Data Engineer"
+location = "London, UK"
+description = "AI & Software Engineer"
 github = "https://github.com/alex-anast"
 email = "anastasioyaa@gmail.com"
 linkedin = "https://linkedin.com/in/anastasioyaa"

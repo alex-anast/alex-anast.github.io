@@ -1,15 +1,106 @@
 # Experience data - accessed via site.Data.en.experience.experience
-# TODO: Replace placeholder entries with actual experience from resume
-# Format: company (string), role (string), period (string like "Feb 2023 - Present"), description (string)
+# Format: company (string), role (string), period (string), country (string), responsibilities (array of strings), technologies (array of strings)
 
 [[experience]]
 company = "Wayve"
+company_link = "https://wayve.ai"
 role = "Software Engineer"
-period = "Apr 2025 - Present"
-description = "Working on X, Y, Z."
+period = "April 2025 - Present"
+country = "London, United Kingdom"
+responsibilities = [
+    "Working on autonomous vehicle software systems"
+]
+technologies = ["Python", "Machine Learning", "Autonomous Systems"]
 
 [[experience]]
-company = "Glaxosmithklein"
+company = "GSK"
+company_link = "https://www.gsk.com"
 role = "AI Engineer"
-period = "Nov 2024 - Sep 2024"
-description = "Thesis project: TODO"
+period = "November 2024 - September 2025"
+country = "Wavre, Belgium"
+responsibilities = [
+    "Research collaboration on Generative AI applications in Pharma as part of KUL Master studies",
+    "Project: 'The Analyst in the Machine: A Self-Healing Multi-Agent System for Automated Exploratory Data Analysis in the Pharmaceutical Domain'"
+]
+technologies = ["Python", "Generative AI", "Multi-Agent Systems", "Data Analysis"]
+
+[[experience]]
+company = "Nalys"
+company_link = "https://nalys.be"
+role = "Software Engineer"
+period = "September 2022 - Present"
+country = "Brussels, Belgium"
+responsibilities = [
+    "Software engineering consulting services"
+]
+technologies = ["Python", "Software Development"]
+
+[[experience]]
+company = "Ekinops"
+company_link = "https://www.ekinops.com"
+role = "Software Engineer - CI/CD Specialist"
+period = "November 2023 - July 2024"
+country = "Leuven, Belgium"
+responsibilities = [
+    "Developed pip-installable integration testing framework using Python, Pytest, and Object Oriented Design for network setup automation",
+    "Developed, maintained and extended CI tests (Jenkins), automated build and testing processes (GitLab & JIRA API)"
+]
+technologies = ["Python", "Pytest", "Jenkins", "GitLab", "JIRA", "CI/CD", "Networking"]
+
+[[experience]]
+company = "Ekinops"
+company_link = "https://www.ekinops.com"
+role = "Embedded Software Engineer"
+period = "November 2022 - November 2023"
+country = "Leuven, Belgium"
+responsibilities = [
+    "Developed embedded software solutions for routers using C and Embedded C (ARMv8, x86, PowerPC, Makefile, GDB, Debian Linux)",
+    "Designed and implemented testing frameworks with Python and Pytest for enhanced code quality",
+    "Documented multi-core API and developed debugging software for crash analysis, gaining deep understanding of multi-threading, synchronization, locking, and mutex mechanisms",
+    "Worked in Scrum environment using JIRA and Atlassian tools with extensive GitLab version control"
+]
+technologies = ["C", "Embedded C", "Python", "Pytest", "ARM", "x86", "Linux", "YAML", "YANG", "GitLab", "JIRA"]
+
+[[experience]]
+company = "Toyota Motor Europe"
+company_link = "https://www.toyota-europe.com"
+role = "Power Electronics & Data Science Engineer"
+period = "October 2021 - April 2022"
+country = "Zaventem, Belgium"
+responsibilities = [
+    "Advanced Powertrain department research on EU advanced technology for powertrain systems",
+    "Analyzed IEEE papers on Inverters, DC-DC Converters and On-board chargers using Python NLP Neural Networks",
+    "Created self-updating data visualizations (Microsoft PowerBI, SQL) confirming empirical research and suppliers' future plans",
+    "Simulated and analyzed Electromagnetic Interference of cables in commercial model cars using Ansys",
+    "Manually summarized conference papers on power electronics topologies and participated in supplier/HQ meetings"
+]
+technologies = ["Python", "NLP", "Neural Networks", "PowerBI", "SQL", "Ansys", "Power Electronics"]
+
+[[experience]]
+company = "Divico Security"
+role = "Electronics Engineer"
+period = "May 2020 - July 2020"
+country = "Patras, Greece"
+responsibilities = [
+    "Designed and optimized PCB, initiated outsourcing of manufacturing and assembly replacing manual soldering",
+    "Eliminated reliance on in-house engineers, freed up ~4 work hours per PCB assembly, reduced labor costs and improved quality",
+    "Developed prototype devices with ESP32 Wi-Fi MCU and implemented product functionality using Embedded C",
+    "Assembled PCBs (SMD and through-hole) and product enclosures"
+]
+technologies = ["PCB Design", "ESP32", "Embedded C", "SMD Soldering", "Hardware Design"]
+
+[[experience]]
+company = "UoP Racing Team"
+company_link = "https://uopracing.com"
+role = "Electrical and Electronics Engineer"
+period = "September 2018 - August 2019"
+country = "Patras, Greece"
+responsibilities = [
+    "Multiple awards winning team in FSAE, European engineering competition for student formula racing cars",
+    "Contributed to development of first 4-motor car in FSAE Greece history",
+    "Designed PCBs from scratch for battery management system using Eagle, LTSpice, Diptrace",
+    "Utilized 3D simulation and design tools for enclosures (Fusion360, Catia III)",
+    "Refactored code in Python, Embedded C for Teensy3.2, and MATLAB",
+    "Conducted cost engineering and created bill of materials according to competition standards"
+]
+technologies = ["PCB Design", "Eagle", "LTSpice", "Python", "Embedded C", "MATLAB", "Fusion360", "Battery Management Systems"]
