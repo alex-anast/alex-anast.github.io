@@ -2,43 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:42531/</loc>
+    <loc>http://localhost:35483/</loc>
     <lastmod>2025-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42531/blog/</loc>
+    <loc>http://localhost:35483/blog/</loc>
     <lastmod>2025-02-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42531/categories/blog/</loc>
+    <loc>http://localhost:35483/categories/</loc>
+    <lastmod>2025-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:35483/tags/huggingface/</loc>
+    <lastmod>2025-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:35483/blog/ieee-research-mapper/</loc>
+    <lastmod>2025-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:35483/tags/machine-learning/</loc>
+    <lastmod>2025-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:35483/tags/plotly/</loc>
+    <lastmod>2025-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:35483/categories/projects/</loc>
+    <lastmod>2025-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:35483/tags/research/</loc>
+    <lastmod>2025-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:35483/tags/</loc>
+    <lastmod>2025-02-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:35483/categories/blog/</loc>
     <lastmod>2024-10-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42531/tags/book-summary/</loc>
+    <loc>http://localhost:35483/tags/book-summary/</loc>
     <lastmod>2024-10-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42531/categories/</loc>
+    <loc>http://localhost:35483/tags/habits/</loc>
     <lastmod>2024-10-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42531/tags/habits/</loc>
+    <loc>http://localhost:35483/blog/atomic-habits-summary/</loc>
     <lastmod>2024-10-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42531/blog/atomic-habits-summary/</loc>
+    <loc>http://localhost:35483/tags/self-improvement/</loc>
     <lastmod>2024-10-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:42531/tags/self-improvement/</loc>
-    <lastmod>2024-10-15T00:00:00+00:00</lastmod>
+    <loc>http://localhost:35483/about/</loc>
   </url><url>
-    <loc>http://localhost:42531/tags/</loc>
-    <lastmod>2024-10-15T00:00:00+00:00</lastmod>
+    <loc>http://localhost:35483/certifications/</loc>
   </url><url>
-    <loc>http://localhost:42531/about/</loc>
+    <loc>http://localhost:35483/contact/</loc>
   </url><url>
-    <loc>http://localhost:42531/certifications/</loc>
+    <loc>http://localhost:35483/cv/</loc>
   </url><url>
-    <loc>http://localhost:42531/contact/</loc>
+    <loc>http://localhost:35483/experience/</loc>
   </url><url>
-    <loc>http://localhost:42531/cv/</loc>
-  </url><url>
-    <loc>http://localhost:42531/experience/</loc>
-  </url><url>
-    <loc>http://localhost:42531/projects/</loc>
+    <loc>http://localhost:35483/projects/</loc>
   </url>
 </urlset>

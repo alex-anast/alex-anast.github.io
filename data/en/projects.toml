@@ -1,36 +1,7 @@
 # Projects data - accessed via site.Data.en.projects.projects
 [[projects]]
-name = "Self-Healing Multi-Agent System for EDA"
-stack = ["Python", "LangChain", "Multi-Agent Systems", "Generative AI"]
-summary = "The Analyst in the Machine: A self-healing multi-agent system for automated exploratory data analysis in the pharmaceutical domain. Research thesis project at KUL in collaboration with GSK."
-link = "https://github.com/alex-anast"
-
-[[projects]]
-name = "LLM Discovery Multi-Agent System"
-stack = ["Python", "LangChain", "FastAPI"]
-summary = "Advanced multi-agent system implementation for automated discovery processes using Large Language Models. Designed for scalable and intelligent information retrieval workflows."
-link = "https://github.com/alex-anast"
-
-[[projects]]
-name = "IEEE Papers Analysis & Summarization"
-stack = ["Python", "NLP", "Neural Networks", "Transformers"]
-summary = "NLP system for analyzing and summarizing academic papers from IEEE database on Inverters, DC-DC Converters and On-board chargers. Created automated data visualizations confirming research trends."
-link = "https://github.com/alex-anast"
-
-[[projects]]
 name = "Router Integration Testing Framework"
 stack = ["Python", "Pytest", "OOP", "Networking"]
 summary = "Pip-installable integration testing framework for network setup automation. Streamlined functional tests on routers with comprehensive validation toolkit."
-link = "https://github.com/alex-anast"
-
-[[projects]]
-name = "Battery Management System PCB"
-stack = ["Eagle", "LTSpice", "Diptrace", "Fusion360"]
-summary = "PCB design from scratch for battery management system for 4-motor formula racing car. First of its kind in FSAE Greece history. Includes 3D enclosure design and cost engineering."
-link = "https://github.com/alex-anast"
-
-[[projects]]
-name = "Master Thesis: NLP & Word2Vec Analysis"
-stack = ["C", "NLP", "Word2Vec"]
-summary = "Text Statistical Analysis and correlation with Google's Word2Vec Dictionary using bare-metal C. University of Patras Master's thesis project."
-link = "https://github.com/alex-anast"
+link = "https://github.com/alex-anast/router-test-kit"
+image = "/assets/images/router_test_kit.png"
