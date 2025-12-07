@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alexandros Anastasiou</title>
-    <link>http://localhost:35483/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Alexandros Anastasiou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 04 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:35483/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IEEE Research Mapper</title>
-      <link>http://localhost:35483/blog/ieee-research-mapper/</link>
+      <link>http://localhost:1313/blog/ieee-research-mapper/</link>
       <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:35483/blog/ieee-research-mapper/</guid>
+      <guid>http://localhost:1313/blog/ieee-research-mapper/</guid>
       <description>Building an IEEE Research Mapper with Huggingface and Plotly Dash Overview Note: This post is currently in draft mode as it&amp;rsquo;s still being developed.&#xA;Demo TODO: Attach video&#xA;Problem Statement Business Value TODO: Measurable outcome! Align with CV&#xA;Technical Details This post will be updated with complete details once the project is finalized.</description>
     </item>
     <item>
       <title>Mastering Habits: Atomic Habits Summary by James Clear</title>
-      <link>http://localhost:35483/blog/atomic-habits-summary/</link>
+      <link>http://localhost:1313/blog/atomic-habits-summary/</link>
       <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:35483/blog/atomic-habits-summary/</guid>
+      <guid>http://localhost:1313/blog/atomic-habits-summary/</guid>
       <description>Mastering Habits: Atomic Habits Summary by James Clear In a digital landscape teeming with self-help resources, James Clear&amp;rsquo;s &amp;ldquo;Atomic Habits&amp;rdquo; emerges as a beacon of guidance for those navigating the realm of habit formation and self-improvement. Clear&amp;rsquo;s expertise in this field shines through as he unveils the transformative power of small changes leading to significant outcomes.&#xA;Clear introduces readers to the 4 Laws of Behavior Change, emphasizing the importance of making habits obvious, attractive, easy, and satisfying.</description>
     </item>
     <item>
       <title>About</title>
-      <link>http://localhost:35483/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:35483/about/</guid>
-      <description>My Story TODO&#xA;What Drives Me My career is driven by curiosity and the desire to push boundaries. I&amp;rsquo;ve worked across:&#xA;TODO&#xA;Technical Journey 🎓 Advanced Master in AI (KU Leuven, 2023-2025) 🎓 MSc in Electrical &amp;amp; Computer Engineering (University of Patras, 2014-2022) Get in Touch I&amp;rsquo;m always open to interesting conversations about AI, software engineering, or collaboration opportunities. Feel free to reach out via LinkedIn or email.</description>
+      <guid>http://localhost:1313/about/</guid>
+      <description>My Story I&amp;rsquo;ve always gravitated toward the intersection of software, systems, and intelligence.&#xA;I started in embedded systems and networking, writing C for routers and debugging multicore APIs at Ekinops. Before that, I built autonomous racing electronics and PCB designs for a Formula SAE team in Greece, working on everything from power electronics to microcontrollers.&#xA;Over time, my curiosity moved upward in the stack: from the electrons on a PCB, to the firmware, to the operating system, to the data pipelines feeding ML models, and finally to the behaviour of AI systems themselves.</description>
     </item>
     <item>
       <title>Certifications</title>
-      <link>http://localhost:35483/certifications/</link>
+      <link>http://localhost:1313/certifications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:35483/certifications/</guid>
+      <guid>http://localhost:1313/certifications/</guid>
       <description>📜 Professional Certifications University &amp;amp; MOOC Certifications CS50x: Introduction to Computer Science - Harvard University CS50p: Python - Harvard University Machine Learning Specialization - Stanford University SQL for Data Science - University of California, Davis Technical Courses The Complete Python Bootcamp: Go from zero to hero in Python - Udemy The Complete SQL Bootcamp: Go from zero to hero in SQL - Udemy The World of Computer Networking - Udemy Language Proficiency Certificate of Proficiency in English (C2) - Cambridge English 🌍 Languages 🇬🇷 Greek - Native or Bilingual 🇬🇧 English - Full Professional Proficiency (C2) 🇩🇪 German - Elementary 🇫🇷 French - Elementary 🛠️ Top Skills Based on professional experience and projects:</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>http://localhost:35483/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:35483/contact/</guid>
+      <guid>http://localhost:1313/contact/</guid>
       <description>Let&amp;rsquo;s Connect I&amp;rsquo;m always interested in discussing AI, software engineering, and potential collaborations. Whether you have a project idea, want to chat about technology, or just say hello, feel free to reach out!&#xA;How to Reach Me 📧 Email: anastasioyaa@gmail.com 💼 LinkedIn: linkedin.com/in/anastasioyaa 👨‍💻 GitHub: github.com/alex-anast What I&amp;rsquo;m Interested In AI &amp;amp; Machine Learning projects Open-source contributions Technical discussions and knowledge sharing Collaboration opportunities Speaking engagements Looking forward to hearing from you!</description>
     </item>
     <item>
       <title>Curriculum Vitae</title>
-      <link>http://localhost:35483/cv/</link>
+      <link>http://localhost:1313/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:35483/cv/</guid>
+      <guid>http://localhost:1313/cv/</guid>
       <description> &amp;lt;!-- PDF Viewer --&amp;gt; &amp;lt;div class=&amp;quot;w-full h-[800px] border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden shadow-lg bg-white&amp;quot;&amp;gt; &amp;lt;object data=&amp;quot;/assets/documents/resume_alexandros_anastasiou.pdf&amp;quot; type=&amp;quot;application/pdf&amp;quot; width=&amp;quot;100%&amp;quot; height=&amp;quot;100%&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;flex flex-col items-center justify-center h-full p-8 text-center bg-gray-50 dark:bg-gray-800&amp;quot;&amp;gt; &amp;lt;p class=&amp;quot;text-lg text-gray-700 dark:text-gray-300 mb-4&amp;quot;&amp;gt; Unable to display PDF directly. &amp;lt;/p&amp;gt; &amp;lt;a href=&amp;quot;/assets/documents/resume_alexandros_anastasiou.pdf&amp;quot; class=&amp;quot;text-blue-600 hover:text-blue-500 underline&amp;quot;&amp;gt; Click here to download the PDF &amp;lt;/a&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/object&amp;gt; &amp;lt;/div&amp;gt; </description>
     </item>
   </channel>

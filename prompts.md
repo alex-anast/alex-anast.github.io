@@ -1,14 +1,14 @@
 # Position Layout Template
 
 Job Title — Company Name
-📍 Location (or “Remote” / “Hybrid – based in X”)  🗓 Start – End Date
-(Optionally add a one-line tagline if your title alone doesn’t show scope)
+📍 Location (or "Remote" / "Hybrid – based in X")  🗓 Start – End Date
+(Optionally add a one-line tagline if your title alone doesn't show scope)
 
-Example: “Leading data engineering initiatives supporting ML and analytics across global teams.”
+Example: "Leading data engineering initiatives supporting ML and analytics across global teams."
 
 ## 1. One-line summary (optional but powerful)
 
-A short, assertive description that frames what you own or lead rather than what you were “responsible for.”
+A short, assertive description that frames what you own or lead rather than what you were "responsible for."
 Owns design and deployment of scalable data infrastructure enabling company-wide AI workflows.
 
 ## 2. Bullet points — impact and substance
@@ -30,7 +30,7 @@ Partnered with analytics and research teams to define data contracts ensuring en
 
 💡 Tips:
 
-Don’t use weak verbs like “helped,” “worked on,” or “participated.” Replace with “built,” “led,” “optimized,” “developed,” “deployed,” etc.
+Don't use weak verbs like "helped," "worked on," or "participated." Replace with "built," "led," "optimized," "developed," "deployed," etc.
 
 Quantify outcomes wherever possible — speed, cost, uptime, scale, or adoption metrics.
 
@@ -56,17 +56,17 @@ Keep this section visual and concise — bullet points or inline dots (·) work 
 
 If your official title was fuzzy or internal, you can clarify it subtly:
 
-Official title: “Innovation Engineer” — functionally acted as DevOps Lead within the data infrastructure team.
+Official title: "Innovation Engineer" — functionally acted as DevOps Lead within the data infrastructure team.
 
 This keeps transparency while giving context for your real seniority.
 
 ## 6. Spacing & tone
 
-No paragraphs, no “responsible for.”
+No paragraphs, no "responsible for."
 
 Use white space — LinkedIn truncates long sections; concise bullets keep you above the fold.
 
-Write in a factual, assertive tone. Avoid filler (“proactive,” “motivated,” “passionate”). Show it through results instead.
+Write in a factual, assertive tone. Avoid filler ("proactive," "motivated," "passionate"). Show it through results instead.
 
 ---
 
