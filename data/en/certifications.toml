@@ -1,0 +1,55 @@
+[[certifications]]
+title = "CS50x: Introduction to Computer Science"
+issuer = "Harvard University"
+category = "University & MOOC"
+url = "https://example.com/cert/cs50x"
+certificate_id = "PLACEHOLDER"
+
+[[certifications]]
+title = "CS50p: Python"
+issuer = "Harvard University"
+category = "University & MOOC"
+url = "https://example.com/cert/cs50p"
+certificate_id = "PLACEHOLDER"
+
+[[certifications]]
+title = "Machine Learning Specialization"
+issuer = "Stanford University"
+category = "University & MOOC"
+url = "https://example.com/cert/ml-specialization"
+certificate_id = "PLACEHOLDER"
+
+[[certifications]]
+title = "SQL for Data Science"
+issuer = "University of California, Davis"
+category = "University & MOOC"
+url = "https://example.com/cert/sql-data-science"
+certificate_id = "PLACEHOLDER"
+
+[[certifications]]
+title = "The Complete Python Bootcamp: Go from zero to hero in Python"
+issuer = "Udemy"
+category = "Technical Course"
+url = "https://example.com/cert/python-bootcamp"
+certificate_id = "PLACEHOLDER"
+
+[[certifications]]
+title = "The Complete SQL Bootcamp: Go from zero to hero in SQL"
+issuer = "Udemy"
+category = "Technical Course"
+url = "https://example.com/cert/sql-bootcamp"
+certificate_id = "PLACEHOLDER"
+
+[[certifications]]
+title = "The World of Computer Networking"
+issuer = "Udemy"
+category = "Technical Course"
+url = "https://example.com/cert/networking"
+certificate_id = "PLACEHOLDER"
+
+[[certifications]]
+title = "Certificate of Proficiency in English (C2)"
+issuer = "Cambridge English"
+category = "Language Proficiency"
+url = "https://example.com/cert/cpe"
+certificate_id = "PLACEHOLDER"

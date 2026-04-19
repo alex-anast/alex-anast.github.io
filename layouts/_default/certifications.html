@@ -1,0 +1,57 @@
+{{ define "main" }}
+<div class="max-w-4xl mx-auto px-4 py-12">
+    <h1 class="text-5xl font-bold mb-10 text-text-primary-light dark:text-text-primary-dark">{{ .Title }}</h1>
+
+    {{ $certData := index site.Data .Language.Lang "certifications" }}
+    {{ $allCerts := $certData.certifications }}
+    {{ if $allCerts }}
+        {{ $categories := slice "University & MOOC" "Technical Course" "Language Proficiency" }}
+
+        {{ range $cat := $categories }}
+            {{ $items := where $allCerts "category" $cat }}
+            {{ if $items }}
+            <section class="mb-12">
+                <h2 class="text-2xl md:text-3xl font-bold mb-5 text-text-primary-light dark:text-text-primary-dark">{{ $cat }}</h2>
+                <div class="space-y-3">
+                    {{ range $items }}
+                    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer"
+                       class="cert-row flex flex-col sm:flex-row sm:items-center justify-between gap-3 sm:gap-4 p-4 md:p-5 rounded-lg bg-bg-secondary-light dark:bg-bg-secondary-dark border border-border-primary-light dark:border-border-primary-dark transition-all duration-300 group">
+                        <div class="flex-1 min-w-0">
+                            <div class="flex items-center gap-2">
+                                <h3 class="text-lg md:text-xl font-semibold text-text-primary-light dark:text-text-primary-dark group-hover:text-accent-light dark:group-hover:text-accent-dark transition-colors duration-200 truncate">
+                                    {{ .title }}
+                                </h3>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="shrink-0 opacity-0 group-hover:opacity-70 transition-opacity duration-200 text-text-secondary-light dark:text-text-secondary-dark">
+                                    <path d="M7 17l9.2-9.2M17 17V7H7"/>
+                                </svg>
+                            </div>
+                            <p class="text-sm md:text-base text-text-secondary-light dark:text-text-secondary-dark mt-1">{{ .issuer }}</p>
+                        </div>
+                        <div class="shrink-0">
+                            <span class="inline-block px-3 py-1 text-xs md:text-sm font-mono bg-bg-tertiary-light dark:bg-bg-tertiary-dark text-text-secondary-light dark:text-text-secondary-dark rounded-md border border-border-secondary-light dark:border-border-secondary-dark">
+                                ID: {{ .certificate_id }}
+                            </span>
+                        </div>
+                    </a>
+                    {{ end }}
+                </div>
+            </section>
+            {{ end }}
+        {{ end }}
+    {{ else }}
+        <p class="text-text-secondary-light dark:text-text-secondary-dark">No certifications data found.</p>
+    {{ end }}
+</div>
+
+<style>
+.cert-row:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: rgba(2, 132, 199, 0.4);
+}
+html.dark .cert-row:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border-color: rgba(14, 165, 233, 0.4);
+}
+</style>
+{{ end }}
