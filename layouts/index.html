@@ -52,13 +52,12 @@
     {{ end }}
 
     <!-- tech stack here -->
-    <section class="mb-20">
+    <section class="mt-12 mb-20">
         <h2 class="text-4xl font-bold mb-2 relative">{{ T "whatIWorkWith" }}</h2>
         <div class="tech-carousel">
-            <!-- Row 1 - Forward animation -->
+            <!-- Row 1 - Left to right -->
             <div class="carousel-container">
                 <div class="carousel-track carousel-track-left-to-right">
-                    <!-- Original set -->
                     <div class="carousel-item">
                         <i class="devicon-python-plain text-2xl"></i>
                         <span class="text-xl">Python</span>
@@ -84,14 +83,14 @@
                         <span class="text-xl">Linux</span>
                     </div>
                     <div class="carousel-item">
-                        <i class="devicon-azure-plain"></i>      
+                        <i class="devicon-azure-plain"></i>
                         <span class="text-xl">Azure</span>
                     </div>
                     <div class="carousel-item">
-                        <i class="devicon-googlecloud-plain"></i>        
+                        <i class="devicon-googlecloud-plain"></i>
                         <span class="text-xl">Google Cloud</span>
                     </div>
-                    <!-- Duplicate items -->
+                    <!-- Duplicate for seamless loop -->
                     <div class="carousel-item">
                         <i class="devicon-python-plain text-2xl"></i>
                         <span class="text-xl">Python</span>
@@ -117,12 +116,82 @@
                         <span class="text-xl">Linux</span>
                     </div>
                     <div class="carousel-item">
-                        <i class="devicon-azure-plain"></i>      
+                        <i class="devicon-azure-plain"></i>
                         <span class="text-xl">Azure</span>
                     </div>
                     <div class="carousel-item">
-                        <i class="devicon-googlecloud-plain"></i>        
+                        <i class="devicon-googlecloud-plain"></i>
                         <span class="text-xl">Google Cloud</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Row 2 - Right to left -->
+            <div class="carousel-container">
+                <div class="carousel-track carousel-track-right-to-left">
+                    <div class="carousel-item">
+                        <i class="devicon-docker-plain text-2xl"></i>
+                        <span class="text-xl">Docker</span>
+                    </div>
+                    <div class="carousel-item">
+                        <i class="devicon-pytorch-plain text-2xl"></i>
+                        <span class="text-xl">PyTorch</span>
+                    </div>
+                    <div class="carousel-item">
+                        <i class="devicon-tensorflow-original text-2xl"></i>
+                        <span class="text-xl">TensorFlow</span>
+                    </div>
+                    <div class="carousel-item">
+                        <i class="devicon-git-plain text-2xl"></i>
+                        <span class="text-xl">Git</span>
+                    </div>
+                    <div class="carousel-item">
+                        <i class="devicon-postgresql-plain text-2xl"></i>
+                        <span class="text-xl">SQL</span>
+                    </div>
+                    <div class="carousel-item">
+                        <i class="devicon-pytest-plain text-2xl"></i>
+                        <span class="text-xl">Pytest</span>
+                    </div>
+                    <div class="carousel-item">
+                        <i class="devicon-jenkins-plain text-2xl"></i>
+                        <span class="text-xl">Jenkins</span>
+                    </div>
+                    <div class="carousel-item">
+                        <i class="devicon-bash-plain text-2xl"></i>
+                        <span class="text-xl">Bash</span>
+                    </div>
+                    <!-- Duplicate for seamless loop -->
+                    <div class="carousel-item">
+                        <i class="devicon-docker-plain text-2xl"></i>
+                        <span class="text-xl">Docker</span>
+                    </div>
+                    <div class="carousel-item">
+                        <i class="devicon-pytorch-plain text-2xl"></i>
+                        <span class="text-xl">PyTorch</span>
+                    </div>
+                    <div class="carousel-item">
+                        <i class="devicon-tensorflow-original text-2xl"></i>
+                        <span class="text-xl">TensorFlow</span>
+                    </div>
+                    <div class="carousel-item">
+                        <i class="devicon-git-plain text-2xl"></i>
+                        <span class="text-xl">Git</span>
+                    </div>
+                    <div class="carousel-item">
+                        <i class="devicon-postgresql-plain text-2xl"></i>
+                        <span class="text-xl">SQL</span>
+                    </div>
+                    <div class="carousel-item">
+                        <i class="devicon-pytest-plain text-2xl"></i>
+                        <span class="text-xl">Pytest</span>
+                    </div>
+                    <div class="carousel-item">
+                        <i class="devicon-jenkins-plain text-2xl"></i>
+                        <span class="text-xl">Jenkins</span>
+                    </div>
+                    <div class="carousel-item">
+                        <i class="devicon-bash-plain text-2xl"></i>
+                        <span class="text-xl">Bash</span>
                     </div>
                 </div>
             </div>
@@ -143,14 +212,23 @@
         <h2 class="text-4xl font-bold mb-5">{{ T "experienceTitle" }}</h2>
         <div class="space-y-4 max-w-3xl mx-auto">
             {{ range $index, $exp := . }}
-            <div class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:w-[2px] before:h-full before:bg-gray-700 before:rounded-full">
-                <div class="absolute -left-1.5 top-0 w-2 h-2 bg-gray-700 rounded-full"></div>
-                <div class="text-gray-400 text-xl mb-1">
-                    {{ .company }}
+            <div class="relative pl-8 before:content-[''] before:absolute before:left-0 before:top-0 before:w-[2px] before:h-full before:bg-border-secondary-light dark:before:bg-border-secondary-dark before:rounded-full">
+                <div class="absolute -left-1.5 top-0 w-2 h-2 bg-border-secondary-light dark:bg-border-secondary-dark rounded-full"></div>
+                <div class="text-text-secondary-light dark:text-text-secondary-dark text-xl mb-1">
+                    {{ if .company_link }}<a href="{{ .company_link }}" target="_blank" rel="noopener noreferrer" class="hover:text-accent-light dark:hover:text-accent-dark transition-colors duration-200">{{ .company }}</a>{{ else }}{{ .company }}{{ end }}
                 </div>
-                <p class="text-2xl font-semibold">{{ .role }}</p>
-                <p class="text-gray-400 font-semibold">{{ .period }}</p>
-                <p class="mt-2">{{ .description }}</p>
+                <p class="text-2xl font-semibold text-text-primary-light dark:text-text-primary-dark">{{ .role }}</p>
+                <p class="text-text-secondary-light dark:text-text-secondary-dark font-semibold">{{ .period }}</p>
+                {{ with .responsibilities }}
+                <p class="mt-2 text-text-secondary-light dark:text-text-secondary-dark">{{ index . 0 }}</p>
+                {{ end }}
+                {{ with .technologies }}
+                <div class="mt-2 flex flex-wrap gap-1.5">
+                    {{ range . }}
+                    <span class="px-2 py-0.5 text-xs bg-bg-tertiary-light dark:bg-bg-tertiary-dark text-text-secondary-light dark:text-text-secondary-dark rounded-full">{{ . }}</span>
+                    {{ end }}
+                </div>
+                {{ end }}
             </div>
             {{ end }}
         </div>
@@ -173,21 +251,27 @@
         <div class="flex justify-between items-center mb-6 md:mb-8">
             <h2 class="text-2xl md:text-4xl font-bold">{{ T "projectsTitle" }}</h2>
         </div>
-        <div class="grid grid-cols-1 gap-6 md:gap-8 max-w-3xl mx-auto">
-            {{ range first 2 . }}
-            <div class="project-card relative overflow-hidden rounded-lg bg-[#121212] border border-gray-700 transition-all duration-300 group">
+        <div class="max-w-2xl mx-auto space-y-6">
+            {{ range . }}
+            <div class="project-card relative overflow-hidden rounded-lg bg-bg-secondary-light dark:bg-bg-secondary-dark border border-border-primary-light dark:border-border-primary-dark transition-all duration-300 group">
                 <div class="p-6">
-                    <h3 class="text-xl md:text-2xl font-bold mb-2 text-white">{{ .name }}</h3>
+                    <h3 class="text-xl md:text-2xl font-bold mb-2 text-text-primary-light dark:text-text-primary-dark">{{ .name }}</h3>
                     <div class="flex flex-wrap gap-2 mb-3">
                         {{ range .stack }}
-                        <span class="px-2 py-1 bg-gray-600 rounded-md text-xs font-medium text-white">{{ . }}</span>
+                        <span class="px-2 py-1 bg-bg-tertiary-light dark:bg-bg-tertiary-dark rounded-md text-xs font-medium text-text-primary-light dark:text-text-primary-dark">{{ . }}</span>
                         {{ end }}
                     </div>
-                    <p class="text-sm text-gray-300 mb-4">{{ .summary }}</p>
-                    <a href="{{ .link }}" class="text-blue-400 hover:text-blue-300 transition-colors duration-200">View Project →</a>
+                    <p class="text-sm text-text-secondary-light dark:text-text-secondary-dark mb-4">{{ .summary }}</p>
+                    <a href="{{ .link }}" class="text-accent-light dark:text-accent-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-200">View Project →</a>
                 </div>
             </div>
             {{ end }}
+        </div>
+        <div class="text-center mt-8">
+            <a href="{{ "projects" | absURL }}" class="inline-flex items-center gap-2 text-accent-light dark:text-accent-dark hover:text-text-primary-light dark:hover:text-text-primary-dark transition-colors duration-200 text-lg font-medium">
+                View All Projects
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
         </div>
     </section>
     {{ else }}
@@ -242,8 +326,13 @@
     font-weight: 500;
 }
 
+.carousel-track-right-to-left {
+    animation: scroll-right-to-left 60s linear infinite;
+}
+
 .carousel-container:hover .carousel-track,
-.carousel-container:hover .carousel-track-left-to-right {
+.carousel-container:hover .carousel-track-left-to-right,
+.carousel-container:hover .carousel-track-right-to-left {
     animation-play-state: paused;
 }
 
@@ -265,6 +354,15 @@
     }
 }
 
+@keyframes scroll-right-to-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-100% / 2));
+    }
+}
+
 .project-card {
     height: 100%;
     display: flex;
@@ -276,7 +374,10 @@
 .project-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
-    border-color: rgba(59, 130, 246, 0.5);
+    border-color: rgba(2, 132, 199, 0.5);
+}
+html.dark .project-card:hover {
+    border-color: rgba(14, 165, 233, 0.5);
 }
 </style>
 {{ end }}
