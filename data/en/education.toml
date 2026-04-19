@@ -1,0 +1,11 @@
+[[education]]
+degree = "MSc Artificial Intelligence"
+institution = "KU Leuven"
+period = "YYYY - YYYY"
+location = "Leuven, Belgium"
+
+[[education]]
+degree = "MScEng Electrical Engineering & Computer Science"
+institution = "PLACEHOLDER University"
+period = "YYYY - YYYY"
+location = "PLACEHOLDER, Country"
